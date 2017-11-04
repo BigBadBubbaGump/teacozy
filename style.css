@@ -1,0 +1,221 @@
+* {
+margin: 0px;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+}
+
+.mission h2 {
+  width:1200px;
+  margin-bottom: 0px;
+  padding-top: 25px;
+  background-color: black;
+}
+
+.featured-tea h2 {
+  width:1000px;
+  margin-bottom: 0px;
+  padding-top: 25px;
+}
+
+.location-block h2 {
+
+}
+
+
+h3 {
+
+  font-size: 20px;
+  display: block;
+  text-align: center;
+}
+
+.mission h3 {
+  width: 1200px;
+  padding-top: 10;
+  margin-top: 0px;
+  padding-bottom: 25px;
+  background-color: black;
+}
+
+.featured-tea h3 {
+  margin-top: 0px;
+  padding: 10px;
+}
+
+.location-block h3 {
+
+}
+
+a {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+body {
+
+  background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 14px;
+}
+
+
+.logo-menu {
+  display: flex;
+  margin-top: 0px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  margin-left: 10px;
+  height: 50px;
+  position: relative;
+}
+
+.menu {
+  list-style: none;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.mission {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 30px;
+  top:70;
+  padding-top:70;
+  width:1200px;
+  height: 700px;
+  background-image: url("mission-bg.jpg");
+}
+
+
+.featured-tea {
+  margin: 10px auto;
+  display:block;
+  width: 1000px;
+  height: 625px;
+  }
+
+  .tea-img-container {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    margin: 0px 5px;
+  }
+
+.teas {
+  width:100%;
+  height: 460px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tea-img-container img {
+    display:inline-block;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    padding-bottom: 10px;
+  }
+
+.location-block {
+
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 500px;
+  width: 1200px;
+  background-image: url("rcs/locations-bg.jpg");
+}
+
+.location-container {
+  display: flex;
+  width: 980px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.local-heading {
+  display:block;
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+}
+
+
+.location-place {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  justify-content: space-around;
+  align-content: space-between;
+  opacity: 1;
+  margin: 15px 20px;
+  background-color: black;
+}
+
+.location-place p {
+  display:block;
+  position:relative;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.contact {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position:relative;
+  text-align: center;
+  height:200px;
+  width: 100%;
+}
+
+.copyright {
+  display:block;
+  width: 100%;
+  margin-left: 10px;
+}
+
+
+.copyright p {
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
